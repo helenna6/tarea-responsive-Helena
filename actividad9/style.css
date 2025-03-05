@@ -1,0 +1,26 @@
+body {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f0f0f0;
+}
+.container {
+    text-align: center;
+}
+@media (orientation: landscape) {
+    body {
+      background-color: blue;
+    }
+}
+@media (orientation: portrait) {
+    body {
+        background-color: #11ff00;
+    }
+    .container h1 {
+        color: #000000;
+    }
+}
