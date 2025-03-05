@@ -1,0 +1,28 @@
+body {
+  font-family: 'Times New Roman', Times, serif;
+}
+nav {
+  background-color: #ff5a5a;
+  padding: 10px;
+  text-align: center;
+}
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+}
+li {
+  padding: 10px 20px;
+  font-size: 18px;
+}
+@media (max-width: 600px) {
+  ul {
+    flex-direction: column;
+    align-items: center;
+  }
+  li {
+    padding: 10px;
+  }
+}
