@@ -1,0 +1,28 @@
+body {
+  font-family: 'Times New Roman', Times, serif;
+  text-align: center;
+  padding: 20px;
+}
+.mobile-only, .desktop-only {
+  padding: 20px;
+  border-radius: 5px;
+  margin: 10px auto;
+  width: 80%;
+  font-size: 18px;
+  font-weight: bold;
+}
+.mobile-only {
+  background-color: #ff9999;
+  display: none;
+}
+.desktop-only {
+  background-color: #99ccff;
+}
+@media (max-width: 600px) {
+  .mobile-only {
+    display: block;
+  }
+  .desktop-only {
+    display: none;
+  }
+}
