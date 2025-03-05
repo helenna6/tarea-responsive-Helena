@@ -1,0 +1,9 @@
+div.box{
+    background-color: blue;
+    width: 100%;
+}
+@media (max-width: 600px) {
+    div.box {
+      background-color: rgb(255, 0, 0);
+    }
+}
